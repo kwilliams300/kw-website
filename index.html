@@ -1,114 +1,73 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!--Start Head element -->
-  <link href=“/css/style.css” rel=“stylesheet” type=“text/css”>
-  <title>Katie Williams</title>
-</head>
-<body>
-
-  <header>
-    <nav>
-      <div>
-        <a href="link">Home</a>
-        <a  href="link">About</a>
-        <a href="link">Work With Me</a>
-      </div>
-
-      <div>
-        <!--  <icon> -->
-      </div>
-
-      <div>
-        <a href="link">Testimonials</a>
-        <a  href="link">Contact</a>
-        <a href="link">Blog</a>
-      </div>
-    </nav>
+---
+layout: default
+brands:
+  - pic_path: image 1
+  - pic_path: image 2
+  - pic_path: image 3
+  - pic_path: image 4
+---
+<!-- Nav in default -->
+    <!-- Top Header -->
+<section class="home-banner">
+  <div class="home-banner-content">
+    <h2>Katie Williams</h2>
+    <h1>Web Developer and Marketer</h1>
+    <h3>tagline text</h3>
+  </div>
+</section>
 
 
-    <section>
-        <img src=link>
-      <div>
-        <h2>Katie Williams</h2>
-        <h1>Web Developer and Marketer</h1>
-        <h3>tagline text</h3>
-      </div>
-    </section>
-  </header>
+<!-- Let's work together and Portfolio -->
+<section class="portfolio-section grid">
+  <div class="col-6">
+    <img src=link/>
+    <span>text</span>
+  </div>
+  <div class="col-6">
+    <img src=link/>
+    <span>text</span>
+  </div>
+  <div>
+    <!-- <icon> -->
+  </div>
+  <div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
 
-    <section>
-      <div>
-        <img src=link/>
-        <span>text</span>
-      </div>
-      <div>
-        <img src=link/>
-        <span>text</span>
-      </div>
-      <div>
-        <!-- <icon> -->
-      </div>
-      <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </section>
+<!-- What to Expect or What I do -->
+<section class="skills-section grid">
+  <h2 class="col-12">What to Expect</h2>
+  <div class="col-4">
+    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+    <h3>User Friendly</h3>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  </div>
+  <div class="col-4">
+    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+    <h3>Responsive Design</h3>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  </div>
+  <div class="col-4">
+    <i class="fa fa-code-fork" aria-hidden="true"></i>
+    <h3>Quality Code</h3>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </p>
+  </div>
+</section>
 
-    <section>
-      <h2>What to Expect</h2>
-      <div>
-        <!-- <icon> -->
-        <p>user friendly</p>
-      </div>
-      <div>
-        <!-- <icon> -->
-        <p>user friendly</p>
-      </div>
-      <div>
-        <!-- <icon> -->
-        <p>user friendly</p>
-      </div>
-  </section>
-
-  <section>
-    <h2>Quote</h2>
+  <!-- Quotes & Brands Worked With -->
+<section>
+  <h2>Quote</h2>
+  {% for brand in page.brands %}
     <div>
-      <img src=link>
+      <img src={{brand.pic_path}}>
     </div>
-    <div>
-      <img src=link>
-    </div>
-    <div>
-      <img src=link>
-    </div>
-  </section>
+  {% endfor %}
+</section>
 
-    <section>
-      <!-- Contact Form Goes Here -->
-    </section>
+  <!-- Contact form in default -->
 
-  <footer>
-    <div>
-      <a href="index.html">Home</a>
-    </div>
-    <div>
-      <a href="index.html">About</a>
-    </div>
-    <div>
-      <a href="index.html">Work With Me</a>
-    </div>
-
-    <div>
-      <!-- <icon> -->
-    </div>
-
-    <div>
-      <a href="index.html">Home</a>
-    </div>
-    <div>
-      <a href="index.html">About</a>
-    </div>
-    <div>
-      <a href="index.html">Work With Me</a>
-    </div>
-  </footer>
-</body>
+ <!-- Footer in default -->
