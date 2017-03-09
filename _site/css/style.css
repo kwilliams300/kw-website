@@ -26,13 +26,15 @@ img {
   max-height: 100%;
 }
 
+/*Typography*/
+
 h1,h2,h3,h4,h5,h6{
   font-family:"Montserrat", "Verdana";
   text-align:center;
 }
 
 h2{
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 footer,section{
@@ -49,12 +51,6 @@ footer,section{
 .center{
   text-align: center;
 }
-
-/*Typography*/
-
-
-
-
 
 /*Navigation*/
 
@@ -80,14 +76,14 @@ header .logo img {
 
 /*Banner*/
 .home-banner {
-  background-image: url(http://cdn.newsapi.com.au/image/v1/e7e1510feecb7668750f4abae8249040?width=1024);
+  background-image:url(/images/slovakia.jpg);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 60px);
 }
 
 .home-banner-content {
-  color: #00a1e4;
+  color: teal;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .home-banner-content h1, .home-banner-content h2, .home-banner-content h3{
@@ -95,8 +91,63 @@ header .logo img {
 }
 
 /*Portfolio*/
+.portfolio-section {
+  text-align: center;
+  padding:3% 23%
+}
+
+.portfolio-section-icons {
+  padding: 2% 0%
+}
+
+.portfolio-section-icons i {
+  font-size: 3rem;
+
+}
+
+.portfolio-section p {
+  text-align: center;
+}
+
 
 /*Skills*/
+.skills-section {
+  padding:2% 5%
+}
+
+.skills-section-icons {
+  text-align: center;
+  font-size: 3rem;
+}
+
 .skills-section h2 {
   font-size: 2rem;
+  color: teal;
+}
+
+.skills-section h3 {
+  font-size: 1.5rem;
+}
+
+/*Quote*/
+.quote-section {
+  padding:2% 5%
+}
+
+.quote-section h2 {
+  color: teal;
+  font-size:2rem;
+  text-align:center;
+}
+
+.quote-section h3 {
+  color: teal;
+  font-style: italic;
+  font-size:1.8rem;
+}
+
+.quote-section-logos img{
+  width: 20%;
+  margin: auto;
+  display:block;
 }
