@@ -11,6 +11,7 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Montserrat|Oswald" rel="stylesheet">
 
@@ -48,7 +49,8 @@
   <div class="home-banner-content">
     <h2 class="firstname">KATIE</h2>
     <h2 class="lastname">WILLIAMS</h2>
-    <h1>WEB DEVELOPER & MARKETER</h1>
+    <h3 class="slash">//</h3>
+    <h1>WEB DEVELOPER MARKETER</h1>
     <!-- <h3>tagline text</h3> -->
   </div>
 </section>
@@ -66,7 +68,8 @@
   </div>
 
   <div class="col-12 portfolio-section-icons">
-    <img src="http://static1.squarespace.com/static/56d891c3b09f9547596b1335/t/573a3578e3214017eb2defdc/1487879103215/?format=1500w"/ />
+    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    <i class="fa fa-chevron-left" aria-hidden="true"></i>
   </div>
 
     <p>Some random piece of information about what I do. Hello this is text to fill the space.</p>
@@ -76,19 +79,19 @@
 <section class="skills-section grid">
   <h2 class="col-12">MY SERVICES</h2>
   <div class="col-4 skills-section-icons">
-    <img src="http://static1.squarespace.com/static/56d891c3b09f9547596b1335/t/573a3578e3214017eb2defdc/1487879103215/?format=1500w"/ />
+
     <h3>1. ONLINE BRAND IDENTITY</h3>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   </div>
   <div class="col-4 skills-section-icons">
-    <img src="http://static1.squarespace.com/static/56d891c3b09f9547596b1335/t/573a3578e3214017eb2defdc/1487879103215/?format=1500w"/ />
+
     <h3>2.WEB DESIGN</h3>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   </div>
   <div class="col-4 skills-section-icons">
-    <img src="http://static1.squarespace.com/static/56d891c3b09f9547596b1335/t/573a3578e3214017eb2defdc/1487879103215/?format=1500w"/ />
+
     <h3>3.NO CLUE</h3>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -98,7 +101,7 @@
 
   <!-- Quotes -->
 <section class="quote-section grid">
-  <h2 class="col-12">TESTIMONIALS</h2>
+  <h2 class="col-12">PORTFOLIO</h2>
   <h3 class="col-12">“Simplicity, wit, and good typography.” –Michael Bierut</h3>
   
     <div class="col-3 quote-section-logos">
@@ -121,12 +124,19 @@
 
   <!-- Contact form in default -->
 
+
  <!-- Footer in default -->
  <!-- LightWidget WIDGET -->
 
 
     <section class="contact-form">
-      <!-- Contact Form Goes Here -->
+      <h1>Contact Me</h1>
+      <form method="POST" action="http://formspree.io/kwilliams300@gmail.com">
+        <input type="name" name="name" placeholder="Name"required>
+        <input type="email" name="replyto" placeholder="Email"required>
+        <textarea name="message" placeholder="Your message"></textarea>
+        <button type="submit">Contact Katie</button>
+      </form>
     </section>
 
 
@@ -167,6 +177,19 @@
     </footer>
     <!-- Instagram footer -->
     <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2003a96c3fff5773992b89e203d7843f.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+<div>
+  <i class="fa fa-copyright" aria-hidden="true"></i>
+  Copywright Katie Williams design
 
+</div>
   </body>
+  <!-- Adding Jquery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  </script>
+
+<!-- Isotope -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.3/isotope.pkgd.min.js"></script>
+
+  <!-- ADding main.js file -->
+  <script src="/js/main.js"> </script>
 </html>

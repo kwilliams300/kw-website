@@ -35,6 +35,10 @@ h1,h2,h3,h4,h5,h6 {
   color:#ffbfb3;
 }
 
+h1{
+  font-size: 1.8rem;
+}
+
 h2{
   font-size: 9rem;
   line-height: 1;
@@ -115,6 +119,12 @@ header .logo img {
 
 .lastname{
   width:45rem;
+}
+
+.slash{
+  font-size: 4rem;
+  color:grey;
+  font-family: "Montserrat";
 }
 
 /*Portfolio*/
@@ -222,6 +232,9 @@ header .logo img {
 
 .contact-form {
   background-color:#a3a2a7;
+}
+.contact-form h1 {
+  color:black;
 }
 
 /*Footer*/
