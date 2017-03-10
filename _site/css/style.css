@@ -30,24 +30,40 @@ img {
 /*Typography*/
 
 h1,h2,h3,h4,h5,h6 {
-  font-family:"Montserrat","Verdana";
+  font-family:"Francois One","Verdana";
   text-align:center;
 }
 
 h2{
-  font-size: 7rem;
+  font-size: 10rem;
+  line-height: 1;
+  font-weight:bold;
   font-family:"Montserrat";
-  color:white;
+  color:#FFF;
+  /*color:#B9F4EF;*/
 }
 
 footer,section{
   padding: 10%;
-
 }
 
-.padded-2{
-  padding:2%;
+footer a {
+  padding:25%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color:#a3a2a7;
+}
 
+footer img {
+  width:80%;
+}
+
+.no-padding {
+  padding:0;
+}
+ul {
+  list-style: none;
+  margin:0;
 }
 
 
@@ -58,12 +74,12 @@ footer,section{
 /*Navigation*/
 
 nav{
-  height:60px;
+  height:70px;
 }
 
 nav a{
   padding: 0;
-  line-height: 60px;
+  line-height: 70px;
   color:black;
   font-size: 1.3rem;
   background-color:white;
@@ -75,25 +91,28 @@ header .logo {
 }
 
 header .logo img {
-  height: 60px;
+  height: 100px;
+  width: 90px;
 }
 
 /*Banner*/
 .home-banner {
   /*background-image:url(/images/slovakia.jpg);*/
-  background-size: cover;
-  background-color:#ffbfb3;
+  /*background-size: cover;*/
+  background-color:#B9F4EF;
   background-position: center;
-  height: calc(100vh - 60px);
+  /*height: calc(100vh - 70px);*/
 }
 
 .home-banner-content {
   color: white;
+  padding: 5rem;
+  text-align: center;
   /*background-color: rgba(255, 255, 255, 0.5);*/
 
 }
 .home-banner-content h1, .home-banner-content h2, .home-banner-content h3{
-  text-align: left;;
+  text-align: left;
 }
 
 /*Portfolio*/
@@ -142,17 +161,19 @@ header .logo img {
   position: absolute;
 
 }
-
+/*To do call Shanna to look*/
 .rectangle .box-text {
   position: absolute;
   bottom: 1%;
+  color:#ffbfb3;
+  font-size: 2rem;
 }
 
 
 /*Skills*/
 .skills-section {
   padding:2% 5%;
-  background-color: #b6e8d4;
+  background-color: #ffbfb3;
 }
 
 .skills-section-icons {
@@ -162,28 +183,33 @@ header .logo img {
 
 .skills-section h2 {
   font-size: 2rem;
-  color: teal;
+  color: white;
 }
 
 .skills-section h3 {
   font-size: 1.5rem;
+  color: white;
+}
+
+.skills-section p {
+  color:white;
 }
 
 /*Quote*/
 .quote-section {
-  padding:2% 5%
+  padding:5% 10%
 }
 
 .quote-section h2 {
-  color: teal;
-  font-size:2rem;
+  color: #B9F4EF;
+  font-size:4rem;
   text-align:center;
 }
 
 .quote-section h3 {
-  color: teal;
+  color: #B9F4EF;
   font-style: italic;
-  font-size:1.8rem;
+  font-size:2rem;
 }
 
 .quote-section-logos img{
@@ -192,7 +218,11 @@ header .logo img {
   display:block;
 }
 
+.contact-form {
+  background-color:#a3a2a7;
+}
+
 /*Footer*/
 .footer-section {
-  background-color: #a3a2a7;
+  background-color: white;
 }
