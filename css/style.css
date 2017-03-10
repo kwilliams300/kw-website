@@ -3,13 +3,13 @@
 margin:0px;
 padding:0px;
 box-sizing: border-box;
-border: 1px solid darkgreen;
+/*border: 1px solid darkgreen;*/
 }
 
 
 /*Universal*/
 body{
-  font-family:"Open Sans",sans-serif;
+  font-family:"Six+Caps",sans-serif;
 }
 
 p {
@@ -26,15 +26,18 @@ img {
   max-height: 100%;
 }
 
+
 /*Typography*/
 
-h1,h2,h3,h4,h5,h6{
-  font-family:"Montserrat", "Verdana";
+h1,h2,h3,h4,h5,h6 {
+  font-family:"Montserrat","Verdana";
   text-align:center;
 }
 
 h2{
-  font-size: 3rem;
+  font-size: 7rem;
+  font-family:"Montserrat";
+  color:white;
 }
 
 footer,section{
@@ -63,6 +66,7 @@ nav a{
   line-height: 60px;
   color:black;
   font-size: 1.3rem;
+  background-color:white;
 }
 
 
@@ -76,24 +80,35 @@ header .logo img {
 
 /*Banner*/
 .home-banner {
-  background-image:url(/images/slovakia.jpg);
+  /*background-image:url(/images/slovakia.jpg);*/
   background-size: cover;
+  background-color:#ffbfb3;
   background-position: center;
   height: calc(100vh - 60px);
 }
 
 .home-banner-content {
-  color: teal;
-  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+
 }
 .home-banner-content h1, .home-banner-content h2, .home-banner-content h3{
-  text-align: left;
+  text-align: left;;
 }
 
 /*Portfolio*/
 .portfolio-section {
   text-align: center;
-  padding:3% 23%
+  padding:3% 23%;
+  background-color:#BDD6D3;
+}
+
+.portfolio-section .first-image{
+  padding-right:10%;
+}
+
+.portfolio-section .second-image{
+  padding-left: 10%;
 }
 
 .portfolio-section-icons {
