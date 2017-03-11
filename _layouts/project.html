@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<section class="project-banner" style="background-image:url({{ page.banner-image }})">
+  <h1>
+    <div class="subtitle">
+      Case Study
+    </div>
+    {{ page.name }}
+  </h1>
+  <div class="project-logo">
+    <img src="{{ page.logo }}" />
+  </div>
+</section>
+<section class="project-title">
+  <div class="snippet">
+    {{ page.snippet }}
+  </div>
+</section>
+<section class="project-testimonial grid">
+  <div class="col-3">
+    <img src="{{ page.testimonial-photo }}" class="testimonial-photo" />
+  </div>
+  <div class="col-9">
+    <q>{{ page.testimonial }}</q>
+    <div class="testimonial-by">{{ page.testimonial-by }}</div>
+  </div>
+</section>
+<section class="project-description">
+  <p>
+    {{ content }}
+  </p>
+</section>
+<section class="project-link">
+  <a href="{{ page.link }}">View Project</a>
+</section>

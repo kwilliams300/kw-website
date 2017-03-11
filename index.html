@@ -1,10 +1,5 @@
 ---
 layout: default
-brands:
-  - pic_path: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKtoecptidIxMyJz-xkrmxazi9wQoWSiYFTke3bvRaqhZjpOk3
-  - pic_path: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSIJg90VmLtuJo7e4i0okwoVuRMq5Rw-Amc3YxIQ-1gDwNptkPLqA
-  - pic_path: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ7CRxq-T0ssAiL8kp7_pXK2UUZHOD_zU-LbsKJglgkIhE7alR-
-  - pic_path: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQevVAv_ZVUfI8i5cMpRZGbIu71MGjPUqR70qR7F877JKyWJWdEXw
 ---
 <!-- Nav in default -->
     <!-- Top Header -->
@@ -80,13 +75,17 @@ brands:
   </div>
 </section>
 
-  <!-- Quotes -->
-<section class="quote-section grid">
-  <h2 class="col-12">PORTFOLIO</h2>
-  <h3 class="col-12">“Simplicity, wit, and good typography.” –Michael Bierut</h3>
-  {% for brand in page.brands %}
-    <div class="col-3 quote-section-logos">
-      <img src={{brand.pic_path}}>
+  <!-- My Work -->
+<section class="projects-section grid">
+  <h2 class="col-12">MY WORK</h2>
+  {% for project in site.projects limit:3 %}
+    <div class="col-4 projects-section-logos">
+      <h3>{{ project.name }}</h3>
+      <img src={{ project.logo }}>
+      <p>
+        {{ project.snippet }}
+      </p>
+      <a href="{{ project.url }}" class="project-button">See Case Study</a>
     </div>
   {% endfor %}
 </section>
