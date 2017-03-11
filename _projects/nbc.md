@@ -1,8 +1,7 @@
 ---
-name: NBC
 layout: project
-logo: https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSIJg90VmLtuJo7e4i0okwoVuRMq5Rw-Amc3YxIQ-1gDwNptkPLqA
-snippet: I made a pretty big impression on this wasted guy, it was a night he'll never forget.
+logo: http://weburbanist.com/wp-content/uploads/2010/06/logos-bison.jpg
+snippet: Created a fully responsive website which increased Starbucks conversion rate by 53%
 testimonial: Amazing hookup. 10/10, would definitely let her stick a Bintang in me butthole.
 testimonial-by: Some Drunk Guy
 testimonial-photo: /images/drunk-guy.jpeg

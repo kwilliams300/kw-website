@@ -270,14 +270,15 @@ https://static1.squarespace.com/static/57fb56525016e1e6f224bce9/t/57fd00a92994ca
 }
 
 .projects-section h2 {
-  color: #B9F4EF;
+  color: #ffbfb3;
   font-size:4rem;
   text-align:center;
 }
 
 .projects-section h3 {
   padding: 5%;
-  color: B9F4EF;
+  color: grey;
+  font-family: "Oxygen";
   font-size:2rem;
 }
 
@@ -496,4 +497,17 @@ footer .copyright {
 .project-description {
   padding: 0% 5%;
   text-align: center;
+}
+
+.project-button{
+  margin: auto;
+     width: 50%;
+     padding:5%;
+     font-size: 1.2rem;
+     display: block;
+     font-family:"Montserrat";
+     text-align: center;
+     border: none;
+     color:#ffbfb3;
+
 }
