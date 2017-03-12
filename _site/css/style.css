@@ -50,6 +50,11 @@ img {
   left:-100%;
 }
 
+.mobile-show{
+  display:none;
+}
+
+
 
 
 
@@ -625,4 +630,97 @@ font-size: 5rem;
 }
 .project-button:hover {
   color:#a3a2a7;
+}
+
+/*burger*/
+
+
+.burger-button {
+  position:fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 9999999999;
+  padding: 8px;
+}
+/*this is where you can chand the color of the buttons*/
+.burger-button span{
+  width: 25px;
+  border: 2px solid black;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+}
+.burger-top, .burger-bottom{
+  position: absolute;
+}
+
+.burger-top{
+  top: 02px;
+}
+
+.burger-bottom{
+  bottom: 02px;
+}
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle{
+  transform: rotateZ(270deg);
+  border-color: rgba(0,0,0,0)
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+.burger-button.active .burger-bottom{
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
+
+
+.burger-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9f9f9;
+    padding:5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 99999999;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #C3BFBC;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  display:block;
+  padding:5px 15px;
+  text-align:center;
+  white-space:nowrap;
+}
+
+.burger-menu li{list-style:none}
+/*
+.dropdown-nav:hover .dropdown-content {
+    display: block;
+} */
+
+
+@media  (max-width: 769px) {
+    .center.grid .mobile-hide {
+      display:none;
+    }
+.mobile-show {
+  display:block;
+}
+
 }
