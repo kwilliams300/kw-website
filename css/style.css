@@ -118,8 +118,9 @@ header .logo {
 }
 
 header .logo img {
-  height: 100px;
-  width: 90px;
+  height: 65px;
+  width: 55px;
+  padding-top: 4%;
 }
 
 /*Banner*/
@@ -425,7 +426,7 @@ footer .copyright {
 
 .wwm-pricing-overlay {
   background-color: rgba(255, 191, 179, 0.55);
-  padding: 7% 5% 5% 5%;
+  padding: 7% 5% 2% 5%;
 }
 
 .wwm-banner-content {
@@ -437,8 +438,12 @@ footer .copyright {
   width:30%;
 }
 
-.wwm-banner h2.work-with {
+.wwm-banner h2.work {
   width:30rem;
+  color:white;
+}
+.wwm-banner h2.with {
+  width:25rem;
   color:white;
 }
 .wwm-banner h2.me{
@@ -457,6 +462,7 @@ footer .copyright {
   text-align: left;
 }
 
+
 .wwm-section {
   padding:3%;
 }
@@ -473,9 +479,9 @@ footer .copyright {
 }
 
 .wwm-section-icons{
-  color:#a3a2a7;
+  color:grey;
   text-align: center;
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .wwm-pricing {
@@ -507,11 +513,19 @@ font-size: 5rem;
   margin-top:-5%;
 }
 
+.get-started a {
+  color:#ffbfb3;
+  font-size: 1.8rem;
+  border:1px solid #ffbfb3;
+  padding:5px;
+  border-radius: 5px;
+}
+
 .get-started p {
   color:grey;
   text-align:center;
   padding: 1%;
-  margin-bottom:-5%;
+  margin-bottom:5%;
 }
 /* Projects */
 .project-banner {
@@ -536,15 +550,15 @@ font-size: 5rem;
   color: white;
   text-align: left;
 }
-
+/*
 .project-banner h1 {
   color: white;
   font-size: 3.5rem;
   position: absolute;
   bottom: 10px;
-  left: 330px;
+  left: 350px;
   text-align: left;
-}
+}*/
 
 .snippet {
   color:white;
