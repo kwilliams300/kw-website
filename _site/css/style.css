@@ -423,18 +423,96 @@ footer .copyright {
 
 /*Work With Me Page*/
 
-.wwm-banner h2.work-with {
-  width:34rem;
+.wwm-pricing-overlay {
+  background-color: rgba(255, 191, 179, 0.55);
+  padding: 7% 5% 5% 5%;
 }
 
+.wwm-banner-content {
+  color: #ffbfb3;
+  padding: 5rem;
+  text-align: center;
+  background-color:#B9F4EF;
+  min-height: 100vh;
+  width:30%;
+}
+
+.wwm-banner h2.work-with {
+  width:30rem;
+  color:white;
+}
 .wwm-banner h2.me{
-  width:15rem;
+  width:14rem;
+}
+
+.wwm-banner {
+  background-image:url(/images/layingdown.jpg);
+  /*background-size: cover;*/
+  background-position: -141px 702px;
+}
+
+.wwm-banner h2 {
+  color: white;
+  background-color:#B9F4EF;
+  text-align: left;
+}
+
+.wwm-section {
+  padding:3%;
+}
+
+.wwm-section p {
+  color:grey;
+  text-align:center;
+  padding:2%;
 }
 
 .wwm-section h2 {
-  color: #a3a2a7;
+  color:#ffbfb3;
+  font-size: 5rem;
 }
 
+.wwm-section-icons{
+  color:#a3a2a7;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.wwm-pricing {
+background-color:#ffbfb3;
+padding: 3%;
+}
+
+.wwm-pricing-overlay h2{
+color: white;
+font-size: 5rem;
+}
+
+.wwm-pricing-overlay p {
+  color: white;
+  text-align:center;
+  padding: 2%;
+}
+
+
+.home-banner {
+  background-image:url(/images/portfolio_image.jpg);
+  /*background-size: cover;*/
+}
+
+.get-started h2 {
+  color:#B9F4EF;
+  font-size: 5rem;
+  padding: -3%;
+  margin-top:-5%;
+}
+
+.get-started p {
+  color:grey;
+  text-align:center;
+  padding: 1%;
+  margin-bottom:-5%;
+}
 /* Projects */
 .project-banner {
   background-size: cover;
@@ -464,10 +542,16 @@ footer .copyright {
   font-size: 3.5rem;
   position: absolute;
   bottom: 10px;
-  left: 300px;
+  left: 330px;
   text-align: left;
 }
 
+.snippet {
+  color:white;
+  text-align:center;
+  font-family:"Oxygen";
+  font-size: 3rem;
+}
 .project-title {
   padding: 5%;
   background-color:#B9F4EF;
@@ -475,16 +559,16 @@ footer .copyright {
 
 .project-testimonial {
   text-align: center;
-  padding: 5%;
+  padding: 4%;
 }
 
 .testimonial-photo {
-  height: 100px;
+  height: 200px;
   border-radius: 50%;
 }
 
 .project-testimonial q {
-  font-size: 1.8rem;
+  font-size: 3rem;
   line-height: 1.5;
   font-style: italic;
 }
@@ -497,9 +581,23 @@ footer .copyright {
 .project-description {
   padding: 0% 5%;
   text-align: center;
+  color:white;
+  background-color: #ffbfb3;
+
+}
+.project-description h2 {
+  color:white:
+  background-color:#B9F4EF;
+  font-size: 3rem;
+  padding: 5% 5% 0% 5%;
+}
+.project-description p {
+  color:white:
+  background-color:#ffbfb3;
+  padding-bottom: 5%;
 }
 
-.project-button{
+.project-button {
   margin: auto;
      width: 50%;
      padding:5%;
@@ -510,4 +608,7 @@ footer .copyright {
      border: none;
      color:#ffbfb3;
 
+}
+.project-button:hover {
+  color:#a3a2a7;
 }
